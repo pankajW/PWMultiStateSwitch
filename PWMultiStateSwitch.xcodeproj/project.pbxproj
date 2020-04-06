@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		475204D8243B83A700BC335B /* PWMultiStateSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475204CE243B83A700BC335B /* PWMultiStateSwitch.framework */; };
+		475204DD243B83A700BC335B /* PWMultiStateSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475204DC243B83A700BC335B /* PWMultiStateSwitchTests.swift */; };
+		475204DF243B83A700BC335B /* PWMultiStateSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 475204D1243B83A700BC335B /* PWMultiStateSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		475204D9243B83A700BC335B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 475204C5243B83A700BC335B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 475204CD243B83A700BC335B;
+			remoteInfo = PWMultiStateSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		475204CE243B83A700BC335B /* PWMultiStateSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PWMultiStateSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		475204D1243B83A700BC335B /* PWMultiStateSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWMultiStateSwitch.h; sourceTree = "<group>"; };
+		475204D2243B83A700BC335B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475204D7243B83A700BC335B /* PWMultiStateSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWMultiStateSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		475204DC243B83A700BC335B /* PWMultiStateSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWMultiStateSwitchTests.swift; sourceTree = "<group>"; };
+		475204DE243B83A700BC335B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		475204CB243B83A700BC335B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475204D4243B83A700BC335B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475204D8243B83A700BC335B /* PWMultiStateSwitch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		475204C4243B83A700BC335B = {
+			isa = PBXGroup;
+			children = (
+				475204D0243B83A700BC335B /* PWMultiStateSwitch */,
+				475204DB243B83A700BC335B /* PWMultiStateSwitchTests */,
+				475204CF243B83A700BC335B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		475204CF243B83A700BC335B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				475204CE243B83A700BC335B /* PWMultiStateSwitch.framework */,
+				475204D7243B83A700BC335B /* PWMultiStateSwitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		475204D0243B83A700BC335B /* PWMultiStateSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				475204D1243B83A700BC335B /* PWMultiStateSwitch.h */,
+				475204D2243B83A700BC335B /* Info.plist */,
+			);
+			path = PWMultiStateSwitch;
+			sourceTree = "<group>";
+		};
+		475204DB243B83A700BC335B /* PWMultiStateSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				475204DC243B83A700BC335B /* PWMultiStateSwitchTests.swift */,
+				475204DE243B83A700BC335B /* Info.plist */,
+			);
+			path = PWMultiStateSwitchTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		475204C9243B83A700BC335B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475204DF243B83A700BC335B /* PWMultiStateSwitch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		475204CD243B83A700BC335B /* PWMultiStateSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475204E2243B83A700BC335B /* Build configuration list for PBXNativeTarget "PWMultiStateSwitch" */;
+			buildPhases = (
+				475204C9243B83A700BC335B /* Headers */,
+				475204CA243B83A700BC335B /* Sources */,
+				475204CB243B83A700BC335B /* Frameworks */,
+				475204CC243B83A700BC335B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PWMultiStateSwitch;
+			productName = PWMultiStateSwitch;
+			productReference = 475204CE243B83A700BC335B /* PWMultiStateSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		475204D6243B83A700BC335B /* PWMultiStateSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475204E5243B83A700BC335B /* Build configuration list for PBXNativeTarget "PWMultiStateSwitchTests" */;
+			buildPhases = (
+				475204D3243B83A700BC335B /* Sources */,
+				475204D4243B83A700BC335B /* Frameworks */,
+				475204D5243B83A700BC335B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				475204DA243B83A700BC335B /* PBXTargetDependency */,
+			);
+			name = PWMultiStateSwitchTests;
+			productName = PWMultiStateSwitchTests;
+			productReference = 475204D7243B83A700BC335B /* PWMultiStateSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		475204C5243B83A700BC335B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Pankaj Wadhwa";
+				TargetAttributes = {
+					475204CD243B83A700BC335B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					475204D6243B83A700BC335B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 475204C8243B83A700BC335B /* Build configuration list for PBXProject "PWMultiStateSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 475204C4243B83A700BC335B;
+			productRefGroup = 475204CF243B83A700BC335B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				475204CD243B83A700BC335B /* PWMultiStateSwitch */,
+				475204D6243B83A700BC335B /* PWMultiStateSwitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		475204CC243B83A700BC335B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475204D5243B83A700BC335B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		475204CA243B83A700BC335B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475204D3243B83A700BC335B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475204DD243B83A700BC335B /* PWMultiStateSwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		475204DA243B83A700BC335B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 475204CD243B83A700BC335B /* PWMultiStateSwitch */;
+			targetProxy = 475204D9243B83A700BC335B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		475204E0243B83A700BC335B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		475204E1243B83A700BC335B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		475204E3243B83A700BC335B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PWMultiStateSwitch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pankaj.PWMultiStateSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		475204E4243B83A700BC335B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PWMultiStateSwitch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pankaj.PWMultiStateSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		475204E6243B83A700BC335B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PWMultiStateSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pankaj.PWMultiStateSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		475204E7243B83A700BC335B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PWMultiStateSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pankaj.PWMultiStateSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		475204C8243B83A700BC335B /* Build configuration list for PBXProject "PWMultiStateSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475204E0243B83A700BC335B /* Debug */,
+				475204E1243B83A700BC335B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475204E2243B83A700BC335B /* Build configuration list for PBXNativeTarget "PWMultiStateSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475204E3243B83A700BC335B /* Debug */,
+				475204E4243B83A700BC335B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475204E5243B83A700BC335B /* Build configuration list for PBXNativeTarget "PWMultiStateSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475204E6243B83A700BC335B /* Debug */,
+				475204E7243B83A700BC335B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 475204C5243B83A700BC335B /* Project object */;
+}
