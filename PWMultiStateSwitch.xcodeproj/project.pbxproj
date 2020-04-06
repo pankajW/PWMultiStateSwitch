@@ -10,6 +10,7 @@
 		475204D8243B83A700BC335B /* PWMultiStateSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475204CE243B83A700BC335B /* PWMultiStateSwitch.framework */; };
 		475204DD243B83A700BC335B /* PWMultiStateSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475204DC243B83A700BC335B /* PWMultiStateSwitchTests.swift */; };
 		475204DF243B83A700BC335B /* PWMultiStateSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 475204D1243B83A700BC335B /* PWMultiStateSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		475204E9243B9C5E00BC335B /* PWMultiStateSwitch.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 475204E8243B9C5E00BC335B /* PWMultiStateSwitch.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		475204D7243B83A700BC335B /* PWMultiStateSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWMultiStateSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		475204DC243B83A700BC335B /* PWMultiStateSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWMultiStateSwitchTests.swift; sourceTree = "<group>"; };
 		475204DE243B83A700BC335B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475204E8243B9C5E00BC335B /* PWMultiStateSwitch.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PWMultiStateSwitch.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		475204C4243B83A700BC335B = {
 			isa = PBXGroup;
 			children = (
+				475204E8243B9C5E00BC335B /* PWMultiStateSwitch.podspec */,
 				475204D0243B83A700BC335B /* PWMultiStateSwitch */,
 				475204DB243B83A700BC335B /* PWMultiStateSwitchTests */,
 				475204CF243B83A700BC335B /* Products */,
@@ -178,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475204E9243B9C5E00BC335B /* PWMultiStateSwitch.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
